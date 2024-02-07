@@ -1,9 +1,3 @@
-_Noah D'Arcy's boilerplate for all web projects._
+#Front End of Toad and Turnip Website
 
-# NextJS BoilerPlate
-
-This boiler plate uses the latest version of [NextJS](https://nextjs.org/), and uses [TailwindCSS](https://tailwindcss.com/) for styling.
-
-Animations are all powered by [Framer Motion](https://www.framer.com/motion/) including the page transitions!
-
-**More integrations for CMS coming soon...**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4526fb7b-43f6-4138-91f0-eb63382f0dd3/deploy-status)](https://app.netlify.com/sites/toadandturnip/deploys)
