@@ -4,7 +4,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ["var(--font-roboto-mono)"],
+        sans: ["var(--font-montserrat)"],
+        serif: ["var(--font-charming)"],
+      },
+      colors: {
+        black: "#121212",
+        white: "#FCFDFC",
+        yellow: "#FEB00E",
+        green: "#49A60E",
       },
     },
   },

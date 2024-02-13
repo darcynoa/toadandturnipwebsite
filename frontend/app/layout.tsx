@@ -1,14 +1,22 @@
 "use client";
 
-import { Roboto_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
+import localFont from "next/font/local";
+import "../styles/globals.css";
 
-const roboto_mono = Roboto_Mono({
+const montserrat = Montserrat({
   subsets: ["latin"],
+  weight: ["400", "600"],
+  style: ["normal", "italic"],
   display: "swap",
-  variable: "--font-roboto-mono",
+  variable: "--font-montserrat",
 });
 
-import "../styles/globals.css";
+const charming = localFont({
+  src: "./fonts/charming.otf",
+  display: "swap",
+  variable: "--font-charming",
+});
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -18,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${roboto_mono.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${charming.variable}`}>
       <head />
       <body>{children}</body>
     </html>
