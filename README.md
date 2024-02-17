@@ -5,5 +5,6 @@ Toad and Turnip is a small business that create incredible tattoo aftercare prod
 Developed using
 
 - NextJS14, TailwindCSS, Framer Motion
-- Some CMS
+- Netlify deploying the Front End
+- Strapi CMS deployed on Heroku _\*\*\*eventually_
 - Probably going to use Stripe
