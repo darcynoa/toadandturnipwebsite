@@ -1,6 +1,6 @@
 "use client";
 
-import { Navbar } from "./navbar";
+import { Navbar } from "../components/navbar";
 
 function notFound() {
   return (

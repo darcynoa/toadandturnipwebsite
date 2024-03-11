@@ -10,7 +10,7 @@ export const PageWrapper = ({
   children: React.ReactNode;
 }) => (
   <>
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="sync" initial={false}>
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}

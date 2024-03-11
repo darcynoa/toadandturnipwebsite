@@ -3,8 +3,8 @@
 // pages/about.js
 import React from "react";
 import Link from "next/link";
-import { Navbar } from "../navbar";
-import { PageWrapper } from "../page-wrapper";
+import { Navbar } from "../../components/navbar";
+import { PageWrapper } from "../../components/page-wrapper";
 
 const AboutPage = () => {
   return (

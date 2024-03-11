@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { PageWrapper } from "./page-wrapper";
+import { PageWrapper } from "../components/page-wrapper";
 
 const Preloader = () => {
   return (
