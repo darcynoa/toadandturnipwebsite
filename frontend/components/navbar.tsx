@@ -136,7 +136,7 @@ export const Navbar = () => {
         variants={mobileNavMenuVariants}
         initial="initial"
         animate={menu ? "open" : "close"}
-        className={`absolute top-0 pt-[2rem] pl-[2rem] flex flex-col gap-[6.5rem] bg-white w-screen h-screen text-[2.5rem] lg:py-[2rem] lg:px-[4rem] lg:gap-[2.5rem] lg:text-center lg:flex-row lg:text-base lg:static lg:w-auto lg:h-auto lg:items-center lg:translate-x-0`}
+        className={`absolute top-0 pt-[2rem] pl-[2rem] pb-[6rem] flex flex-col justify-between bg-white w-screen h-screen text-[2.5rem] lg:py-[2rem] lg:px-[4rem] lg:gap-[2.5rem] lg:text-center lg:flex-row lg:text-base lg:static lg:w-auto lg:h-auto lg:items-center lg:translate-x-0`}
       >
         <Image
           src={"/icons/close.svg"}
@@ -186,7 +186,6 @@ export const Navbar = () => {
                           scale: 0,
                         }
                   }
-                  whileTap={{}}
                   transition={{
                     ease: [0.5, 0.12, 0.38, 0.99],
                     duration: 0.5,
